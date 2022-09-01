@@ -4,7 +4,7 @@ import random
 class setup:
     '''This class is responsible for:
             1. Showing board each time when user as well as bot enters their turn
-            2. Asking user if he / she wants to go first'''
+            2. Asking user if he / she wants to go first one '''
 
     def __init__(self):
         self.board = [str(i) for i in range(1, 10)]
